@@ -21,7 +21,7 @@ client = gspread.authorize(creds)
 
 # ⚠️ अपनी गूगल शीट की ID यहाँ दोबारा डालना न भूलें
 spreadsheet_id = "13Pw06lVEr4a5aandlqkbvmXEGIcelShmKrCpn5oA3l4" 
-worksheet = client.open_by_key(spreadsheet_id).worksheet("Top 250 Stocks TO")ब्रेकआउट स्टॉक अलर्ट
+worksheet = client.open_by_key(spreadsheet_id).worksheet("Top 250 Stocks TO")
 
 # 2. NSE Data Fetcher
 def fetch_bhavcopy_for_date(date_obj):
