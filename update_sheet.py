@@ -11,7 +11,7 @@ import json
 # 1. Credentials Setup
 creds_json = os.environ.get('GCP_CREDENTIALS_TO')
 if not creds_json:
-    print("CRITICAL: GCP_CREDENTIALS secret missing!")
+    print("CRITICAL: GCP_CREDENTIALS TO secret missing!")
     exit(1)
 
 creds_dict = json.loads(creds_json)
